@@ -45,11 +45,15 @@ button:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .glossary-header {
     font-weight: bold;
     cursor: pointer;
+      
 }
 
 .glossary-definition {
@@ -63,9 +67,11 @@ button:hover {
     display: none;
 }
 
+/* Updated delete button styling */
 .delete-button {
     background-color: #d9534f;
-    margin-top: 10px;
+    padding: 5px 10px;  /* Smaller padding */
+    margin-left: 10px;
     border: none;
     border-radius: 5px;
     color: white;
@@ -74,4 +80,25 @@ button:hover {
 
 .delete-button:hover {
     background-color: #c9302c;
+}
+
+.term-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.toggle-btn {
+    margin-right: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
 }
