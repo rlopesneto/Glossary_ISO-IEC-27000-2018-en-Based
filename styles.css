@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#add-term-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#term, #definition {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.glossary-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.glossary-header {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.glossary-definition {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #5bc0de;
+    background-color: #e7f3f8;
+}
+
+.hidden {
+    display: none;
+}
+
+.delete-button {
+    background-color: #d9534f;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
